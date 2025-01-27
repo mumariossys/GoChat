@@ -1,0 +1,11 @@
+framework module EFRSDK {
+  umbrella header "EFRSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module EFRSDK.Swift {
+  header "EFRSDK-Swift.h"
+  requires objc
+}
